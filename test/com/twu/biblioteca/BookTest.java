@@ -2,19 +2,28 @@ package com.twu.biblioteca;
 
 import org.junit.Before;
 import org.junit.Test;
-import java.io.PrintStream;
-import static org.hamcrest.core.Is.is;
-import static org.junit.Assert.assertThat;
+
+import static org.hamcrest.CoreMatchers.is;
+import static org.hamcrest.MatcherAssert.assertThat;
+
 public class BookTest {
-    Book book;
+    private Book book;
 
-            @Before
+    @Before
     public void setUp() throws Exception {
-                book = new Book("title", "author", 2018);
-            }
+        this.book = new Book("Book1", "Author1", 2000);
+    }
 
-            @Test
-    public void should_print_book_detail() {
-                assertThat(book.toString(), is(String.format("%-20s %-20s %-20s", "title", "author", "2018")));
-            }
+    @Test
+    public void testCheckoutBookShouldReturnCorrectResult() {
+        assertThat(true, is(this.book.checkOutItem()));
+        assertThat(false, is(this.book.checkOutItem()));
+    }
+
+    @Test
+    public void testReturnBookShouldReturnCorrectResult() {
+        assertThat(false, is(this.book.returnItem()));
+        this.book.checkOutItem();
+        assertThat(true, is(this.book.returnItem()));
+    }
 }
