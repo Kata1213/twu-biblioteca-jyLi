@@ -1,32 +1,21 @@
 package com.twu.biblioteca;
 
-public class Book {
-    private final String author;
-    private final String title;
-    private final int publishYear;
-
-    public String getTitle() {
-        return title;
-    }
-
-    Book(String title, String author, int publishYear) {
-                this.title = title;
-                this.author = author;
-                this.publishYear = publishYear;
-            }
+public class Book extends Item {
+    private String author;
+    private int yearOfPublished;
 
     public String getAuthor() {
         return author;
     }
 
     public int getYearOfPublished() {
-        return publishYear;
+        return yearOfPublished;
     }
 
-            @Override
-    public String toString() {
-                return String.format("%-20s %-20s %-20s", title, author, publishYear);
-            }
+    public Book(String title, String author, int yearOfPublished) {
+        super(title, Type.BOOK);
+        this.author = author;
+        this.yearOfPublished = yearOfPublished;
+    }
 
-
-        }
+}
