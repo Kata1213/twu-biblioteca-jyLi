@@ -12,8 +12,7 @@ Instructions to push your code to code.google.com
 
 3. Make a local commit.
     $ git add -A
-    $ git commit -m â€œInitial commitâ€
-
+    $ git commit -m â€œInitial commitâ€?
 (Dont forget to add the hidden .idea folder, as it will make opening your project in Intellij easier.)
 
 4. After you are done with the local commit, you can share your code with "The World" by pushing it to your
@@ -27,3 +26,38 @@ Instructions to open your code in Intellij
 2. Select the directory containing the code
 DONE !
 
+ÉÌÒµ°¸Àý
+°à¼ÓÂÞ¶û¹«¹²Í¼Êé¹ÝÒÑ¾­ÓëÎÒÃÇÁªÏµ£¬ÎªËûÃÇÉè¼ÆºÍÊµÊ©Í¼Êé¹Ý¹ÜÀíÏµÍ³¡£¸ù¾ÝËûÃÇµÄÒªÇó£¬ÎÒÃÇ¾ö¶¨¿ª·¢Ò»¸öÃûÎªBibliotecaµÄÐÂÏµÍ³¡£ÓÉÓÚ¿âÓÐ´óÁ¿ÐèÇó£¬ÎÒÃÇ½«ÖÆ×÷BibliotecaµÄ¶à¸ö°æ±¾£¬Ã¿¸ö°æ±¾¶¼»áÖð²½Ìí¼Ó¸ü¶à¹¦ÄÜ¡£ 
+
+ÎªÁËÔÚ½«À´ÇáËÉÌí¼Ó¸ü¶à¹¦ÄÜÒÔ¼°±£³Ö¸ßÖÊÁ¿£¬Biblioteca½«Ê¹ÓÃ²âÊÔÇý¶¯·½·¨¹¹½¨¡£
+
+µÚÒ»°æBibliotecaµÄÒªÇóÈçÏÂ¡£
+
+ÓÃ»§¹ÊÊÂ
+»¶Ó­´Ç - ×÷Îª¿Í»§£¬ÎÒÏ£ÍûÔÚ¿ªÊ¼ÉêÇëÊ±¿´µ½Ò»Ìõ»¶Ó­ÐÅÏ¢£¬ÒÔ±ãÎÒ¸Ðµ½ÊÜ»¶Ó­²¢ÇÒÖªµÀBiblioteca¿ÉÓÃ¡£
+ÁÐ±íÊé¼® - ×÷Îª¿Í»§£¬ÔÚ»¶Ó­ÏûÏ¢³öÏÖºó£¬ÎÒÏ£Íû¿´µ½ËùÓÐÍ¼Êé¹ÝÊé¼®µÄÁÐ±í£¬ÒÔ±ãÎÒ¿ÉÒÔä¯ÀÀÎÒ¿ÉÄÜÏëÒªÇ©³öµÄÊé¼®¡£¼ÙÉè´æÔÚÔ¤ÏÈ´æÔÚµÄÊé¼®ÁÐ±í¡£ÄúÎÞÐèÖ§³ÖÔÚ¿âÖÐÌí¼Ó»òÉ¾³ýÊé¼®¡£
+Êé¼®ÏêÏ¸ÐÅÏ¢ - ×÷Îª¿Í»§£¬ÎÒÏ£ÍûËùÓÐÊé¼®µÄÁÐ±í°üÀ¨Ã¿±¾Êé×÷ÕßºÍÄê·Ý³ö°æÎï£¬ÒÔ±ãÎÒ¿ÉÒÔÈ·ÐÅÎÒÕÒµ½ÁËÎÒÕýÔÚÑ°ÕÒµÄÊé¡£Êé¼®Çåµ¥Ó¦°üº¬´ËÐÅÏ¢µÄÁÐ¡£
+Ö÷²Ëµ¥ - ×÷Îª¿Í»§£¬ÎÒÏ£Íû¿´µ½Ò»¸öÑ¡ÏîÁÐ±í£¬¶ø²»ÊÇ×Ô¶¯²é¿´Í¼ÊéÇåµ¥£¬²¢ÇÒ¿ÉÒÔÑ¡ÔñÒ»¸ö¡£Ä¿Ç°£¬Î¨Ò»µÄÑ¡ÔñÓ¦¸ÃÊÇ¡°ÁÐ³öÊé¼®¡±¡£ËùÓÐÎ´À´µÄÑ¡ÏîÒ²Ó¦¸ÃÌí¼Óµ½´Ë²Ëµ¥ÖÐ¡£
+ÎÞÐ§µÄ²Ëµ¥Ñ¡Ïî - ×÷Îª¿Í»§£¬ÎÒÏ£ÍûÔÚÑ¡ÔñÎÞÐ§Ñ¡Ïî²¢ÊÕµ½¡°Ñ¡ÔñÓÐÐ§Ñ¡Ïî£¡¡±ÏûÏ¢Ê±ÊÕµ½Í¨Öª£¬ÒÔ±ãÎÒÖªµÀºÎÊ±ÐèÒªÖØÐÂÊäÈëÎÒµÄÑ¡Ôñ¡£
+ÍË³ö - ×÷Îª¿Í»§£¬ÎÒÏë¼ÌÐøÑ¡ÔñÑ¡Ïî£¬Ö±µ½ÎÒÑ¡Ôñ¡°ÍË³ö¡±¡£
+½áÕÊÊé - ×÷ÎªÍ¼Êé¹ÜÀíÔ±£¬ÎÒÏ£Íû¿Í»§ÄÜ¹»Ç©³öÒ»±¾Êé¡£Ç©³öµÄÊé¼®²»Ó¦³öÏÖÔÚËùÓÐÍ¼Êé¹ÝÊé¼®µÄÁÐ±íÖÐ¡£
+³É¹¦½áÕË - ×÷Îª¿Í»§£¬ÎÒÏëÍ¨¹ý¿´µ½¡°Ð»Ð»Äã£¡¡±Õâ¸öÏûÏ¢À´¼ì²éÒ»±¾Êé¡£ÏíÊÜÕâ±¾Êé¡°¡£
+²»³É¹¦µÄ½áÕË - ×÷Îª¿Í»§£¬ÎÒÏ£ÍûÍ¨¹ý¿´µ½¡°ÄÇ±¾Êé²»¿ÉÓÃ¡±µÄÏûÏ¢À´Í¨ÖªÎÒÊÔÍ¼½áÕËµÄÊéÊÇ²»¿ÉÓÃµÄ£¬ËùÒÔÎÒÖªµÀÎÒÐèÒªÑ¡ÔñÒ»¸ö²»Í¬µÄÔ¤¶©»òÐÞ¸´ÎÒµÄÆ´Ð´´íÎó¡£
+ÍË»õÊé - ×÷ÎªÍ¼Êé¹ÜÀíÔ±£¬ÎÒÏ£Íû¿Í»§ÄÜ¹»ÍË»¹Ò»±¾Êé£¬ÒÔ±ãÆäËû¿Í»§¿ÉÒÔ²é¿´¸ÃÊé¡£ÍË»ØµÄÊé¼®Ó¦³öÏÖÔÚÍ¼Êé¹ÝÊé¼®ÁÐ±íÖÐ¡£
+³É¹¦ÍË»õ - ×÷Îª¿Í»§£¬ÎÒÏ£ÍûÊÕµ½Í¨Öª£¬Èç¹ûÎÒÒª¹é»¹µÄÍ¼ÊéÊôÓÚÕâ¸öÍ¼Êé¹Ý£¬¿ÉÒÔ¿´µ½¡°¸ÐÐ»ÄúÍË»ØÍ¼Êé¡£¡±£¬ÒÔ±ãÎÒÖªµÀÎÒ½«Í¼Êé¹é»¹ÁËÕýÈ·µÄÍ¼Êé¹Ý¡£
+²»³É¹¦µÄÍË»õ - ×÷Îª¿Í»§£¬ÎÒÏ£ÍûÊÕµ½Í¨Öª£¬Èç¹ûÎÒÒªÍË»ØµÄÍ¼ÊéÃ»ÓÐ±»Ìí¼Óµ½´Ë¿âÖÐ£¬Ö»Òª¿´µ½¡°Õâ²»ÊÇÒ»±¾ÓÐÐ§µÄÍ¼Êé¾Í¿ÉÒÔ·µ»Ø¡£¡±£¬ÕâÑùÎÒ¾Í¿ÉÒÔ½«ÆäÍË»ØÕýÈ·µÄ¿â»òÐÞ¸´ÎÒµÄÆ´Ð´´íÎó¡£
+¼¼ÊõÒªÇó
+ËùÓÐ´úÂë±ØÐëÊ¹ÓÃTDD¿ª·¢¡£
+BibliotecaÐèÒªÊÇÒ»¸ö¿ØÖÆÌ¨Ó¦ÓÃ³ÌÐò¡£ÈÎºÎUIÔªËØ¶¼¿ÉÒÔÊ¹ÓÃ×Ô¼ºµÄÏëÏóÁ¦
+ÎÒÃÇ²»ÐèÒª´Ë°æ±¾µÄÊý¾Ý¿â¡£
+×÷ÒµÉèÖÃ
+ÏÂÔØ²¢½âÑ¹Ëõ  Biblioteca¹Ç¼Ü´úÂë¡£
+°´ÕÕËæ¸½µÄREADMEÎÄ¼þÖÐµÄËµÃ÷ÔÚGitHubÉÏ´´½¨ÏîÄ¿¡£ 
+Ê¹ÓÃTDD±àÐ´Âú×ãBibliotecaÒªÇóµÄ´úÂë¡£
+È·±£¾­³£½«´úÂë¸ü¸ÄÌá½»µ½GitHub´æ´¢¿â¡£
+ÄúºÜ¿ì¾Í»áÊ¹ÓÃ»¥ÁªÍøÀ´´Ù½øÄúµÄÑ§Ï°£¬²¢½â¾öÄúÓöµ½µÄÈÎºÎÎÊÌâ¡£Èç¹û»¥ÁªÍøÎÞ·¨Âú×ãÄúµÄÐèÇó£¬ÇëÁªÏµÄúµÄGEL¡£ËûÃÇÔÚÕâÀïÌá¹©·´À¡ºÍÖ§³Ö£¬ÒÔ¼Ó¿ìÄúµÄÑ§Ï°¡£
+
+Ìá½»Ö¸ÄÏ
+¶ÔÓÚ´Ë·ÖÅä£¬ÄúÐèÒªÌá½»GitHub´æ´¢¿âµÄURLÒÔ¼°Òª²é¿´µÄgitÌá½»±àºÅ¡£ÒªÌá½»£¬Çëµ¥»÷±¾Ò³µ×²¿µÄ¡°Ìí¼ÓÌá½»¡±°´Å¥£¬È»ºóÔÚÏÔÊ¾µÄÎÄ±¾¿òÖÐÊäÈë´ËÐÅÏ¢¡£
+
+GEL½«¼ì²éÄúµÄ´æ´¢¿âÖÐµÄ´úÂë£¬¶ÔÆä½øÐÐÆÀ¹À²¢ÏòÄúÌá¹©·´À¡¡£ÊÕµ½·´À¡ºó£¬ÇëÖØÐÂ·ÃÎÊ×÷Òµ²¢½øÐÐ½¨ÒéµÄ¸ü¸Ä¡£ 
