@@ -13,12 +13,16 @@ public class AppTest {
 
     @Before
     public void setUp() throws Exception {
-        BookList list = new BookList();
+        ItemList list = new ItemList();
         list.getList().addAll(Arrays.asList(
-                new Book("Book1", "Author1", 2015),
-                new Book("Book2", "Author1", 2016),
-                new Book("Book3", "Author2", 2017),
-                new Book("Book4", "Author3", 2018)));
+                new Book("Book1", "Author1", 2000),
+                new Book("Book2", "Author1", 2001),
+                new Book("Book3", "Author2", 2002),
+                new Book("Book4", "Author3", 2003)));
+        list.getList().addAll(Arrays.asList(
+                new Movie("Movie1", "Director1", 2004, null),
+                new Movie("Movie2", "Director2", 2004, 10),
+                new Movie("Movie3", "Director2", 2004, 5)));
         this.app = new App(list);
     }
 
@@ -29,27 +33,27 @@ public class AppTest {
                 "3.\tBook3\tAuthor2\t2002\t[NotCheckedOut]\n" +
                 "4.\tBook4\tAuthor3\t2003\t[NotCheckedOut]\n";
 
-        String actualStr= this.app.listAllBooks();
+        String actualStr= this.app.listAll(Item.Type.BOOK);
 
         assertThat(actualStr, is(expectStr));
     }
 
     @Test
     public void testWhenCheckoutBookShouldReturnInformation() {
-        String expectStr = "Thank you! Enjoy the book.";
+        String expectStr = "Thank you! Enjoy the book/movie.";
 
-        String actualStr = app.checkoutBook("Book1");
+        String actualStr = app.checkoutItem("Book1");
 
         assertThat(actualStr, is(expectStr));
     }
 
     @Test
     public void testWHenCheckoutNotBookShouldReturnErrorInformation() {
-        String expectStr = "That book is not available.";
+        String expectStr = "That book/movie is not available.";
 
-        String actualStr1 = app.checkoutBook("Book5");
-        app.checkoutBook("Book1");
-        String actualStr2 = app.checkoutBook("Book1");
+        String actualStr1 = app.checkoutItem("Book5");
+        app.checkoutItem("Book1");
+        String actualStr2 = app.checkoutItem("Book1");
 
         assertThat(actualStr1, is(expectStr));
         assertThat(actualStr2, is(expectStr));
@@ -57,20 +61,20 @@ public class AppTest {
 
     @Test
     public void testWhenReturnBookShouldReturnInformation() {
-        String expectStr = "Thank you for returning the book.";
+        String expectStr = "Thank you for returning the book/movie.";
 
-        app.checkoutBook("Book1");
-        String actualStr = app.returnBook("Book1");
+        app.checkoutItem("Book1");
+        String actualStr = app.returnItem("Book1");
 
         assertThat(actualStr, is(expectStr));
     }
 
     @Test
     public void testWhenReturnWrongBookShouldReturnErrorInformation() {
-        String expectStr = "That is not a valid book to return.";
+        String expectStr = "That is not a valid book/movie to return.";
 
-        String actualStr1 = app.returnBook("Book1");
-        String actualStr2 = app.returnBook("Book5");
+        String actualStr1 = app.returnItem("Book1");
+        String actualStr2 = app.returnItem("Book5");
 
         assertThat(actualStr1, is(expectStr));
         assertThat(actualStr2, is(expectStr));
